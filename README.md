@@ -41,33 +41,6 @@ The frontend is a React application built with Vite. The backend is a small Node
 Express API. Styling is handwritten CSS built around a small set of shared design
 tokens, rather than a component library, so the interface stays lightweight.
 
-## Running it locally
-
-Add your own logo and login image to `frontend/public/`, named `usiu-logo.png` and
-`login-image.jpg`.
-
-Start the backend first:
-
-```
-cd backend
-npm install
-npm run dev
-```
-
-Then, in a second terminal, start the frontend:
-
-```
-cd frontend
-npm install
-npm run dev
-```
-
-Once both are running, open `http://localhost:5173` in a browser.
-
-A demo student account is seeded automatically: `sleonce@usiu.ac.ke`, password
-`student123`. A demo staff account is also available: staff ID `staff1`, password
-`clinic123`.
-
 ## Departments
 
 The clinic is organized into five departments — General Medicine, Dental, Pharmacy,
