@@ -1,6 +1,5 @@
 const crypto = require("crypto");
 
-// Only students with an email on this domain can register or sign in.
 const STUDENT_EMAIL_DOMAIN = "usiu.ac.ke";
 
 function isUsiuEmail(email) {
